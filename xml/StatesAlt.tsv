@@ -1,0 +1,11 @@
+Hello	3	calm, annoyed	Hallo, ist da jemand, Hallo hören sie mich?	wenn Op nicht reagiert
+CallerGaveNumber	1	calm, annoyed	Nummer (je nach Wunsch)	Anrufer weiss Nummer
+CallerGaveName	1	calm, angry, annoyed	Namen  (je nach Wunsch)	Anrufer weiss Namen
+SpecialcaseSimilarName	1	calm, angry, annoyed	Der Meier mit ei, E wie emil, I wie Igel	Anrufer spezifiert Schreibweise
+SpecialcaseSpelling	1	calm, angry, annoyed	M wie Mond, E wie Emil, Y wie Yverdon...	Anrufer buchstabiert den ganzen Namen
+SpecialcaseProfession	3	calm, angry, annoyed	Der Metzger Meier!	Anrufer nennt Beruf
+NegativeLookupReaction	3	angry	zb Wofür sind Sie denn da? ich habe keine Zeit für solche Banalitäten.	Antwort auf Auforderung von OP die nummer zu suchen.
+PositiveLookupReaction	3	calm, annoyed	zb: ok, dann schaue ich selber nach: die nummer ist 25	Antwort auf Auforderung von OP die nummer zu suchen.  Caller sucht selber nach Nummer und nennt sie (mehr oder weniger genervt)
+OpSearchNumber	3	annoyed	zb: Endlich!	Antwort auf Antwort von Op. Ich schaue die nummer Nach: die nummer ist ...
+RecAway	3	calm	zb: macht nichts / ich versuche es später nochmal	Reaktion auf Antwort von Op: Die Nummer antwortet leider nicht
+ClientsTalking	3	calm	Freies Gespräch zwischen X und Y	Gespräch zwischen den zwei Telefonierenden beginnt

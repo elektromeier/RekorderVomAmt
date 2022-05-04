@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <subscribers>
-	<subscriber number="155" active="TRUE">
+	<subscriber prefixnumber="23" number="155" active="TRUE">
 		<firstname>Patrick</firstname>
 		<lastname>Jost</lastname>
+		<sex>male</sex>
 		<companyname>Elektromeier Media and Interaction gmbh</companyname>
 		<profession>Programmierer</profession>
-		<personaldirectory>
-			<subscriber number="150" specialcase="spelling"/>
-			<subscriber number="244"/>
-		</personaldirectory>
 		<phonebookinfo pageindex="1" xycoords="0.43,0.34" boxsize="0.1,0.05"/>
+		<personaldirectory>
+			<subscriber number="150" specialcase="spelling" scprobability="0.5"/>
+			<subscriber number="244" specialcase="spelling" scprobability="0.5"/>
+		</personaldirectory>
 	</subscriber>
 		
-	<subscriber number="150" active="TRUE">
+	<subscriber prefixnumber="23" number="150" active="TRUE">
 		<firstname>Larissa</firstname>
 		<lastname>Schüller</lastname>
+		<sex>female</sex>
 		<companyname>Deutsches Seminar</companyname>
 		<profession>Linguistin</profession>
 		<personaldirectory>
-			<subscriber number="155" specialcase="spelling2"/>
-			<subscriber number="244"/>
+			<subscriber number="155" specialcase="similarname" scprobability="0.5"/>
+			<subscriber number="244" specialcase="profession" scprobability="0.5"/>
 		</personaldirectory>
 		<phonebookinfo pageindex="5" xycoords="0.1,0.34" boxsize="0.1,0.05"/>
 	</subscriber>
 	
-	<subscriber number="244" active="TRUE">
+	<subscriber prefixnumber="23" number="244" active="TRUE">
 		<firstname>Noah</firstname>
 		<lastname>Bubenhofer</lastname>
+		<sex>male</sex>
 		<companyname>Deutsches Seminar</companyname>
 		<profession>Linguist</profession>
 		<personaldirectory>
 			<subscriber number="155"/>
-			<subscriber number="150" specialcase="profession"/>
+			<subscriber number="150" specialcase="profession" scprobability="0.5"/>
 		</personaldirectory>
 		<phonebookinfo pageindex="" xycoords="" boxsize=""/>
 	</subscriber>
